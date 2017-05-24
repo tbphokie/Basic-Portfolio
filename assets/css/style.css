@@ -50,6 +50,16 @@ header{
 
 }
 
+
+a:hover {
+    background-color: yellow;
+}
+
+a:active{
+	color: yellow;
+	background-color: pink;
+}
+
 #fillspace{	/* to add whitespace to the right of the About Portfolio Contact links */
 	float:left;
 }
@@ -130,6 +140,11 @@ footer{	/* footer affixed to bottom of page */
 img {
     float: left;
     margin: 0 10px 10px 5px;
+}
+
+img:hover {
+	outline: 5px solid gray;
+  	outline-offset: 10px;
 }
 
 .textInput{
