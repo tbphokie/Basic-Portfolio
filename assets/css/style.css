@@ -1,0 +1,179 @@
+
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	line-height: 24px;
+	background-image: url("../images/circles-and-roundabouts.png");
+	padding-bottom: 80px;	/* pad for width of fixed footer */
+}
+
+
+header{
+	border-color: #cccccc;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #ffffff;
+	width: 100%;
+
+}
+
+#headername{	/* formatting my name */
+	background-color: #4aaaa5;
+	color: white;
+	padding: 20px;
+	width: 200px;
+	float: left;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 32px;
+	line-height: 40px;
+	position: relative;
+	left: 10%;
+
+}
+
+#headernav{	/* for About Portfolio Contact links */
+	background-color: #ffffff;
+	color: #777777;
+	line-height: 40px;
+	padding: 20px;
+	width: 90%;
+	
+	text-align: right;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 24px;
+
+}
+
+#headernav a{	/* remove underline and automatic coloring for links */
+	text-decoration: none;
+	color: #777777;
+	padding: 0px 10px;	
+
+}
+
+#fillspace{	/* to add whitespace to the right of the About Portfolio Contact links */
+	float:left;
+}
+
+h2{
+	color: #4aaaa5;
+	background-color: #ffffff;
+	line-height: 32px;
+	padding:20px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+article{
+	clear: both;
+
+	overflow: hidden;
+	padding-left: 10%;
+	width: 960px;
+
+}
+
+#main, #contact, #portfolio {
+	width: 650px;
+	position: relative;
+	top: 20px;
+	padding-right: 10px;
+	padding-left: 15px;
+	padding-bottom: 30px;
+	background-color: #ffffff;	
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	font-family: Arial, "helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	float: left;
+	overflow: auto;
+}
+
+hr{
+	width: 98%;
+}
+
+#connect{
+	width: 270px;
+	position: relative;
+	top: 20px;
+	left: 15px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	float: left;
+	background-color: #ffffff;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{	/* footer affixed to bottom of page */
+	clear: both;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	background-color: #666666;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 12px;
+	border-color: #4aaaa5;
+	border-top-width: 6px;
+	border-style: solid;
+
+}
+
+img {
+    float: left;
+    margin: 0 10px 10px 5px;
+}
+
+.textInput{
+	width: 632px;
+}
+
+textarea{
+	width: 632px;
+	height: 246px;
+}
+
+button{
+	background-color: #4aaaa5;
+	color: white;
+	border: 1px #4aaaa5;
+	text-align: center;
+	padding: 5px 15px 5px 15px;
+}
+
+#links{	/* couldn't figure out how to align images to the the width of the hr */
+	float:left;
+	width: 98%;
+}
+
+
+.images{
+	float: left;
+	position: relative;
+
+}
+
+h3{
+	position: absolute;
+	top: 150px;
+	left: 5px;
+	width: 230px;	/* width of image minus padding and start */
+	color: white;
+	background-color: #4aaaa5;
+	line-height: 24px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px;
+
+}
+
+

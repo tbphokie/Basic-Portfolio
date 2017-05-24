@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-us">
 	<head>
-		<!-- Point to css file -->
-		<link rel="stylesheet" type="text/css" href="assets\css\style.css">
-		<link rel="stylesheet" type="text/css" href="assets\css\resest.css">
+		<!-- Point to css files -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<title>Terri Pannell's Contact Info</title>
 	</head>
+
+
 	<body>
 		<header>
-			Terri Pannell
-			<section id="nav">
-				About Portfolio Contact
-			</section>
+			<div id="headername">
+				Terri Pannell
+			</div>
+			<div id="headernav">
+				<a href="index.html">About          </a><a href="portfolio.html">Portfolio          </a><a href="#">Contact          </a>
+			</div>
+			<div id="fillspace">
+			</div>
 		</header>
-		<section id="Contact">
-			<h1>Contact</h1>
-			<hr>
-			Name
-			<br>
-			Email
-			<br>
-			Message
-			<br>
-		</section>
-		<section id="connect">
-			Links
-		</section>
+		<article>
+			<section id="contact">
+				<h2>Contact</h2>
+				<hr>
+				<form id="usrform">
+					Name<br><input type="text" name="firstlastname" placeholder="Jonh Smith" class="textInput"><br>
+					Email<br><input type="text" name="email" placeholder="example@gmail.com" class="textInput"><br>
+				</form>
+				Message<textarea name="message" form="usrform"></textarea><br>
+				<button type="submit">Submit</button>
+			</section>
+		
+			<section id="connect">
+				<h2>Connect with Me</h2>
+				<ul>
+					<li><a href="https://github.com/tbphokie/Basic-Portfolio"><img src="assets/images/github.png" width="70" height="70" alt="Github"></a></li><li><a href="https://www.linkedin.com/in/terri-pannell-56991385"><img src="assets/images/linkedin.png"  width="70" height="70" alt="LinkedIn"></a></li><li><a href="https://stackoverflow.com/users/7949064/terri-pannell"><img src="assets/images/stackoverflow.png"  width="70" height="70" alt="Stackoverflow"></a></li>
+				</ul>
+			</section>
+		</article>
 		<footer>
-			Copyright Information
+			@ Copyright 2017 Terri Pannell
 		</footer>
 	</body>
 </html>
