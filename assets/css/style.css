@@ -144,7 +144,7 @@ img {
 
 img:hover {
 	outline: 5px solid gray;
-  	outline-offset: 10px;
+  	outline-offset: 2px;
 }
 
 .textInput{
